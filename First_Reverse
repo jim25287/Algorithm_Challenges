@@ -1,0 +1,12 @@
+Challenge from Coderbyte: Function FirstReverse
+
+function FirstReverse(str) {   
+  var Reverse_word = '';
+  for (var i = 0; i < str.length; i++){
+    Reverse_word = str[i] + Reverse_word
+  }
+  return Reverse_word; 
+
+}
+
+console.log(FirstReverse(input()));
