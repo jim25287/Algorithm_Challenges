@@ -9,4 +9,4 @@ function FirstReverse(str) {
 
 }
 
-console.log(FirstReverse(input()));
+console.log(FirstReverse());
