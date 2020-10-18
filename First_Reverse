@@ -1,5 +1,13 @@
 Challenge from Coderbyte: Function FirstReverse
 
+-------Method_1-------
+function FirstReverse(str) {   
+  return str.split("").reverse().join("");
+  }
+console.log(FirstReverse());
+
+
+-------Method_2-------
 function FirstReverse(str) {   
   var Reverse_word = '';
   for (var i = 0; i < str.length; i++){
