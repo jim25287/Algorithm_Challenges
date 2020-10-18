@@ -1,5 +1,11 @@
 Challenge from Coderbyte: FirstFactorial
 
+-------Method_1-------
+function FirstFactorial(num){
+  return (num === 1? 1 : num * FirstFactorial(num-1));
+}
+
+-------Method_2-------
 function FirstFactorial(num) { 
   var product = 1;
   for (var i = 1; i <= num; i++){
